@@ -1,6 +1,6 @@
 var GRUMPIES = {
 	'short': {
-		'text': "Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box.",
+		'text': "ඔන්න එකෝමත් එක කාලෙක ලොකු වතුර වලක් තිබ්බා. මේ වතුර වලේ ගොඩාක් ලස්සනට මල පිපිලා තිබුණා. මෙහි හිටියා ලොකු ගෙම්බෙක්. මේ ගෙම්බා හරි ආඩම්බර කාර ගෙමබෙක්. මේ ගෙම්බාට ගෙබි පුතෙකුත් හිටියා. එයා ඒ ගෙබි පුතාට කියලා තිබුණේ තමුන් තමයි මේ ලෝකේ ඉන්න ලොකුම ලොකු සතා කියලා. කොහොමින් හරි දවසක් මේ ලොකු වතුර වලේ වතුර බොන්න කුළු හරකෙක් ආවා. මීට ඉස්සෙල්ලා ගෙබි පුතා දැකලා තිබුණේ නැහැ හරකෙක් කියන්නේ මොකෙක්ද කියලා. ඉතිං මේ ගෙබි පුතා දැක්කා තමුන්ගේ තාත්තා ට වඩා මේ සතා ලොකුයි කියලා. එයා කළේ කෙළින්ම තාත්තා ළඟට පැන පැන ගිය එක. එහෙම ගිහිල්ලා ගෙබි තාත්තට කිව්වා. තාත්තට වඩා ලොකු සතෙක් ඉන්නවා කියලා. මේක ඇහුව තාත්තට වස ලැජ්ජාව. ඔන්න ගෙඹි තාත්තා පුතත් එක්ක ගියා අර සතාව බලන්න.",
 		'columns': [ // single column
 			{
 				sizes: [72, 60, 48, 36, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12],
@@ -11,7 +11,7 @@ var GRUMPIES = {
 	},
 
 	'long': {
-		'text': "Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. 01234567890 ",
+		'text': "ඔන්න එකෝමත් එක කාලෙක ලොකු වතුර වලක් තිබ්බා. මේ වතුර වලේ ගොඩාක් ලස්සනට මල පිපිලා තිබුණා. මෙහි හිටියා ලොකු ගෙම්බෙක්. මේ ගෙම්බා හරි ආඩම්බර කාර ගෙමබෙක්. මේ ගෙම්බාට ගෙබි පුතෙකුත් හිටියා. එයා ඒ ගෙබි පුතාට කියලා තිබුණේ තමුන් තමයි මේ ලෝකේ ඉන්න ලොකුම ලොකු සතා කියලා. කොහොමින් හරි දවසක් මේ ලොකු වතුර වලේ වතුර බොන්න කුළු හරකෙක් ආවා. මීට ඉස්සෙල්ලා ගෙබි පුතා දැකලා තිබුණේ නැහැ හරකෙක් කියන්නේ මොකෙක්ද කියලා. ඉතිං මේ ගෙබි පුතා දැක්කා තමුන්ගේ තාත්තා ට වඩා මේ සතා ලොකුයි කියලා. එයා කළේ කෙළින්ම තාත්තා ළඟට පැන පැන ගිය එක. එහෙම ගිහිල්ලා ගෙබි තාත්තට කිව්වා. තාත්තට වඩා ලොකු සතෙක් ඉන්නවා කියලා. මේක ඇහුව තාත්තට වස ලැජ්ජාව. ඔන්න ගෙඹි තාත්තා පුතත් එක්ක ගියා අර සතාව බලන්න. 01234567890 ",
 		'columns': [ // two columns
 			{sizes: [20, 19, 18, 17], innerblock: '.textsettingCol1'},
 			{sizes: [16, 15, 14, 13, 12, 11, 10], innerblock: '.textsettingCol2'}
@@ -71,7 +71,7 @@ var GRUMPIES = {
 	},
 
 	'caps': {
-		'text': "Arrowroot Barlety Chervil Dumpling Endine Flaxseed Garbanzo Hijiki Ishtu Jicama Kale Lycheen Marjoram Nectarine Oxtail Pizza Quinoa Roquefort Squash Tofu Uppuma Vanilla Wheat Xergis Yogurt Zweiback 0 1 2 3 4 5 6 7 8 9 ! ?",
+		'text': "අරුමෝසම් අවාන අවෙල් අසේන්ති අස්නු බංකෝතිය බොලොත් බාල්දිය බම්බුව බංකලොත් බංකුව බන්දේසිය බස්තම බෝනික්කා බොර බෝර්දය බොස්තාදුව බොත්තම බුල බූලිය බූරුවා බූසි එමෝසිය එස්මෙරි එස්මුව එස්පාචිය එස්පේතුව එස්පියා ගෑරප්පුව ගොරෝසුගෝවා හෝරාව ජේමිස් ඉන්තේරු ඉස්කෝලය ඉස්පාසුව 0 1 2 3 4 5 6 7 8 9 ! ?",
 		'columns': [
 			{sizes: [60, 48, 36, 30, 28, 24, 20, 18, 16, 14, 13], innerblock: 'div'}
 		],
@@ -87,8 +87,8 @@ var GRUMPIES = {
 	}
 };
 
-var hintsCaps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var hintsLower = "abcdefghijklmnopqrstuvwxyz.:;,";
+var hintsCaps = "abcdefghijklmnopqrstuvwxyz.:;,ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var hintsLower = "අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ ඏ ඐ එ ඒ ඓ ඔ ඕ ඖ ක ඛ ග ඝ ඞ ඟ ච ඡ ජ ඣ ඤ ඥ ඦ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ෆ ෴";
 var hintsNumbers= "1234567890 @ &amp;!?#$€%";
 
 
