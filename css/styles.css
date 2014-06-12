@@ -351,16 +351,16 @@ div.tabs > div h2 {
 /* Grid
 -----------------------------------------*/
 
-.bodysize {
+.griddisplay {
     overflow: hidden;
     background: #fff url(images/grid.gif) -5px 9px repeat;
 }
-.bodysize table {
+.griddisplay table {
     width: 100%;
     font-size: 90px;
     line-height: 140px;
 }
-.bodysize table th {
+.griddisplay table th {
     padding: 0 0 6px 12px;
     border-bottom: 1px #eeeee2 solid;
     font: normal 13px Verdana, sans-serif;
@@ -368,14 +368,14 @@ div.tabs > div h2 {
     color: #333;
     background-color: #fff;
 }
-.bodysize table td {
+.griddisplay table td {
     xbackground-color: #e2e2d9;
     xborder: 3px #fff solid;
     padding: 6px;
     color: #ff2f2f;
     opacity: 0.5;
 }
-.bodysize table td span {
+.griddisplay table td span {
     margin: 0;
     padding: 0;
     color: #333;
