@@ -1,5 +1,5 @@
 sinhala-font-testing-page
-=================
+=========================
 
 The Sinhala Font Testing Page (Beta) is a tool primarily intended for our internal font testing purposes. But is is can be used by type designers and independent foundries to 'Drag and Drop' their work in progress into a browser and test Sinhala fonts. It can also be used by art directors, graphic designers, teachers and students interested in seeing how a typeface works on the web. 
 
