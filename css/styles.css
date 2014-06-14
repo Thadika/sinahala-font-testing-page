@@ -162,7 +162,6 @@ header {
 [contenteditable="true"]:focus {
     border: 1px dotted #e6e6e6;
 }
-
 /* Top Panel
 -----------------------------------------*/
 
@@ -226,6 +225,7 @@ p#csscode {
 }
 /* Fonts Panel
 -----------------------------------------*/
+
 header h1 {
     font-size: 30px;
     margin: 0;
