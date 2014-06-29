@@ -208,8 +208,8 @@ function prepareAndShowFontLayout() {
 	setColumnTemplate($hamburgefonstiv, GRUMPIES.hamburgefonstivShort);
 	setColumnTemplate2($hamburgefonstiv, GRUMPIES.hamburgefonstivLong);
 
-	var $caps = $('#caps');
-	setColumnTemplate2($caps, GRUMPIES.caps);
+	var $words = $('#words');
+	setColumnTemplate2($words, GRUMPIES.words);
 
 	var $allcaps = $('#allcaps');
 	setColumnTemplate2($allcaps, GRUMPIES.allcaps);
