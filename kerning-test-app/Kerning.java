@@ -18,25 +18,26 @@ public class Kerning {
                 generatePatterns(charSet,wordLength,pattern,bw);
 
             } catch (IOException ex) {
-                
+
             } finally {
                 try {
                     bw.close();
                 } catch (IOException ex) {
-                   
+
                 }
-            }   
+            }
     }
 
     private static void generatePatterns(char[] charSet, int wordLength, char[] pattern, BufferedWriter bw) throws IOException {
-        if(wordLength==0){ 
+        if(wordLength==0){
             bw.write(pattern);
-            bw.write("\n");
+            bw.write(" ");
             return;
         }
         for (int i = 0; i < charSet.length; i++) {
             pattern[pattern.length-wordLength] = charSet[i];
-            generatePatterns(charSet, wordLength-1,pattern, bw);
-        }      
+            generatePatterns(charSet, wordLength-1, pattern, bw);
+        }
+        bw.write("\n"+"<br/><br/>");
     }
 }
