@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+
 html,
 body,
 div,
@@ -166,7 +168,8 @@ header {
 [contenteditable="true"]:focus {
     border: 1px dotted #e6e6e6;
 }
-.label{font-family: 'Inconsolata', Lucida Console, Monaco, monospace !important;}
+.label{font-family: 'Noto Sans Sinhala', Lucida Console, Monaco, monospace !important;;font-family: 'Inconsolata', Lucida Console, Monaco, monospace !important; line-height: 1.5;}
+h2.label{font-size:26px;color: #666;}
 /* Top Panel
 -----------------------------------------*/
 
@@ -487,4 +490,30 @@ td.u {
     padding: 0;
     white-space: nowrap;
     margin: auto;
+}
+ul.uninav{
+    list-style: circle;
+    line-height: 1.5;
+} 
+ul.uninav li{
+    padding-top: 30px;
+}
+
+ul.uninav li a {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+ul.uninavbox{
+    list-style: none;
+} 
+ul.uninavbox li{
+   padding: 10px;
+float: left;
+    text-decoration: none;
+}
+
+ul.uninavbox li a {
+    padding-top: 10px;
+    font-weight: bold;
 }
