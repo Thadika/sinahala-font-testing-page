@@ -91,6 +91,11 @@ video,
 }
 /* HTML5 display-role reset for older browsers */
 
+@font-face {
+ font-family: 'OtherLetter';
+src: url(latest_other_letter.ttf);
+}
+
 article,
 aside,
 details,
@@ -439,3 +444,23 @@ div.ubottom form {
     padding-top: 7px;
     float: right;
 }
+
+/* Unicode Tests Table
+-----------------------------------------*/
+
+th {
+	font-size: large;
+}
+
+td.c {
+	font-size: xx-large;
+	text-align: center;
+	vertical-align: center;
+}
+
+td.u {
+	font-size: large;
+	text-align: left;
+	vertical-align: center;
+}
+
