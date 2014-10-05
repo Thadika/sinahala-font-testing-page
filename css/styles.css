@@ -90,7 +90,6 @@ video,
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-
 article,
 aside,
 details,
@@ -162,6 +161,11 @@ header {
 [contenteditable="true"]:focus {
     border: 1px dotted #e6e6e6;
 }
+.label{font-family: 'Noto Sans Sinhala', Lucida Console, Monaco, monospace !important;font-family; line-height: 1.5;-webkit-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+  -moz-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+  font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;}
+h1.label{font-size:22px;color: #666;}
+h2.label{font-size:18px;color: #666;font-weight: 800;}
 /* Top Panel
 -----------------------------------------*/
 
@@ -438,4 +442,83 @@ div.ubottom {
 div.ubottom form {
     padding-top: 7px;
     float: right;
+}
+/* Anuradha Unicode Tests
+-----------------------------------------*/
+
+th {
+    font-size: large;
+    background: #eee;
+padding: 10px;
+border-left: 1px #D8D8D8 solid;
+    font-family: 'Inconsolata', Lucida Console, Monaco, monospace !important;
+}
+td.c {
+    font-size: 48px;
+    padding: 28px 0px;
+    text-align: center;
+    vertical-align: center;
+}
+td.u {
+    font-size: large;
+    font-family: 'Inconsolata', Lucida Console, Monaco, monospace !important;
+    text-align: left;
+    background: #F7F7F7;
+    padding-left: 20px;
+    vertical-align: center;
+}
+.unitest_set {
+    width: 100%;
+}
+.unitest_tb {
+    text-align: center;
+    float: left;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+}
+.unitest_tb tr {
+    clear: both;
+    float: none;
+    width: 960px;
+    overflow: hidden;
+    border-top: 1px solid #e0e0e0;
+    padding: 0;
+    white-space: nowrap;
+    margin: auto;
+}
+ul.uninav{
+    list-style: circle;
+    line-height: 1.5;
+} 
+ul.uninav li{
+    padding-top: 30px;
+}
+
+ul.uninav li a {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+ul.uninavbox{
+    list-style: none;
+    position: fixed;
+bottom: 0;
+} 
+ul.uninavbox li{
+   padding: 10px;
+float: left;
+    
+}
+
+
+ul.uninavbox li a {
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+background: #eee;
+margin-left: 10px;
+    
 }
