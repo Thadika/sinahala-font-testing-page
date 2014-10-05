@@ -92,10 +92,9 @@ video,
 /* HTML5 display-role reset for older browsers */
 
 @font-face {
- font-family: 'OtherLetter';
-src: url(latest_other_letter.ttf);
+    font-family: 'OtherLetter';
+    src: url(latest_other_letter.ttf);
 }
-
 article,
 aside,
 details,
@@ -444,26 +443,41 @@ div.ubottom form {
     padding-top: 7px;
     float: right;
 }
-
 /* Anuradha Unicode Tests
 -----------------------------------------*/
 
 th {
-	font-size: large;
+    font-size: large;
 }
-
 td.c {
-	font-size: xx-large;
-	text-align: center;
-	vertical-align: center;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: center;
 }
-
 td.u {
-	font-size: large;
-	text-align: left;
-	vertical-align: center;
+    font-size: large;
+    font-family: 'Inconsolata', Lucida Console, Monaco, monospace !important;
+    text-align: left;
+    vertical-align: center;
 }
-
-#set1{
-width: 100%;
+.unitest_set {
+    width: 100%;
+}
+.unitest_tb {
+    text-align: center;
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+}
+.unitest_tb tr {
+    clear: both;
+    float: none;
+    width: 960px;
+    overflow: hidden;
+    border-top: 1px solid #e0e0e0;
+    padding: 0;
+    white-space: nowrap;
+    margin: auto;
 }
