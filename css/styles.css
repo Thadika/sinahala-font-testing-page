@@ -161,8 +161,10 @@ header {
 [contenteditable="true"]:focus {
     border: 1px dotted #e6e6e6;
 }
-.label{font-family: 'Noto Sans Sinhala', Lucida Console, Monaco, monospace !important;font-family; line-height: 1.5;}
-h1.label{font-size:22px;color: #666; font-weight: 800;}
+.label{font-family: 'Noto Sans Sinhala', Lucida Console, Monaco, monospace !important;font-family; line-height: 1.5;-webkit-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+  -moz-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+  font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;}
+h1.label{font-size:22px;color: #666;}
 h2.label{font-size:18px;color: #666;font-weight: 800;}
 /* Top Panel
 -----------------------------------------*/
