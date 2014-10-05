@@ -445,7 +445,7 @@ div.ubottom form {
     float: right;
 }
 
-/* Unicode Tests Table
+/* Anuradha Unicode Tests
 -----------------------------------------*/
 
 th {
@@ -464,3 +464,6 @@ td.u {
 	vertical-align: center;
 }
 
+#set1{
+width: 100%;
+}
