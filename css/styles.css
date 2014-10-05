@@ -166,6 +166,7 @@ header {
 [contenteditable="true"]:focus {
     border: 1px dotted #e6e6e6;
 }
+.label{font-family: 'Inconsolata', Lucida Console, Monaco, monospace !important;}
 /* Top Panel
 -----------------------------------------*/
 
