@@ -90,13 +90,6 @@ video,
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-
-@font-face {
-    font-family: 'OtherLetter';
-    src: url(latest_other_letter.ttf);
-}
-@import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
-
 article,
 aside,
 details,
@@ -168,8 +161,9 @@ header {
 [contenteditable="true"]:focus {
     border: 1px dotted #e6e6e6;
 }
-.label{font-family: 'Noto Sans Sinhala', Lucida Console, Monaco, monospace !important;;font-family;font-family:'Inconsolata', Lucida Console, Monaco, monospace !important; line-height: 1.5;}
-h2.labele{font-size:26px;color: #666;}
+.label{font-family: 'Noto Sans Sinhala', Lucida Console, Monaco, monospace !important;font-family; line-height: 1.5;}
+h1.label{font-size:22px;color: #666; font-weight: 800;}
+h2.label{font-size:18px;color: #666;font-weight: 800;}
 /* Top Panel
 -----------------------------------------*/
 
@@ -517,7 +511,7 @@ float: left;
 
 
 ul.uninavbox li a {
-    font-size: 20px;
+    font-size: 14px;
     padding: 10px;
     margin-left: 10px;
     font-weight: bold;
